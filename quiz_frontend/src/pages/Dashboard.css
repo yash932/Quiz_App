@@ -1,0 +1,56 @@
+.dashboard-container {
+    padding: 20px;
+    max-width: 800px;
+    margin: auto;
+    text-align: center;
+}
+
+.dashboard-title {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.dashboard-buttons {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    margin-bottom: 30px;
+}
+
+.create-btn {
+    background: #28a745;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    border: none;
+    font-weight: bold;
+}
+.create-btn:hover {
+    background: #218838;
+}
+
+.give-btn {
+    background: #007bff;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    border: none;
+    font-weight: bold;
+}
+.give-btn:hover {
+    background: #0056b3;
+}
+
+.quiz-list-title {
+    font-size: 20px;
+    margin: 20px 0;
+}
+
+.quiz-list {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
